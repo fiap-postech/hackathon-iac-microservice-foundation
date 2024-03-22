@@ -9,10 +9,8 @@ locals {
     origin_id = "fiapsoat2grupo13-cdn-origin"
   }
 
-  lambda_signer = "json-web-token-signer"
-
   service_cluster = {
-    name = "tech-challenge"
+    name = "hackathon"
 
     provider = {
       name   = "FARGATE_SPOT"
