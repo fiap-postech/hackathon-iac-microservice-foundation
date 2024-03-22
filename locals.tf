@@ -3,12 +3,6 @@ locals {
 
   vpc_name = "tc-vpc"
 
-  bucket = {
-    name      = "fiapsoat2grupo13-cdn"
-    log       = "log-fiapsoat2grupo13-cdn"
-    origin_id = "fiapsoat2grupo13-cdn-origin"
-  }
-
   service_cluster = {
     name = "hackathon"
 
